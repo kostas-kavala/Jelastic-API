@@ -16,7 +16,7 @@ $city = $_POST["city"];
 $state = $_POST["state"];
 $postcode = $_POST["postcode"];
 $country = $_POST["country"];
-$phonenumber = "9999999999";
+$phonenumber = $_POST["phonenumber"];
 $password2 = bin2hex(openssl_random_pseudo_bytes(4));
 
 // Set post values
